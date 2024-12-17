@@ -4,7 +4,7 @@ import pygame
 
 pygame.init()
 
-# 사운드 설정
+
 revolver_sound = pygame.mixer.Sound("revolver.mp3")
 click_sound = pygame.mixer.Sound("click.mp3")
 bgm = pygame.mixer.Sound("bgm.mp3")
