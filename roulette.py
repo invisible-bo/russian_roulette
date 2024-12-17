@@ -123,10 +123,10 @@ while True:
         else:
             print("You must type 's' to shoot")
 
-    print("Bullet left. You won!")
+    print("\nBullet left. You won!\n")
 
     while True:
-        replay = input("Wanna play again? Type y/n: ").lower()
+        replay = input("Wanna play again? Type y/n:").lower()
         if replay == "y":
             print("Let's play again\n")
             break
@@ -135,4 +135,5 @@ while True:
             exit()
         else:
             print("Please type y/n")
+
 
