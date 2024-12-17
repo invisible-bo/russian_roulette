@@ -11,7 +11,7 @@ bgm = pygame.mixer.Sound("bgm.mp3")
 
 while True:
     bullet = random.choice([0, 0, 0, 0, 0, 1])
-    print("Play Russian Roulette\n")
+    print("\nPlay Russian Roulette\n")
     bgm.play()
     bgm.fadeout(6000)
 
@@ -19,18 +19,18 @@ while True:
         pull_the_trigger = input("Type 's' to shoot: ").lower()
 
         if pull_the_trigger == 's':
-            print("You pull the trigger...")
+            print("\nYou pull the trigger...")
             time.sleep(1)
 
             if bullet == 1:
                 revolver_sound.play()
                 time.sleep(1)
-                print("You are dead. Game over!")
+                print("\nYou are dead. Game over!")
                 exit()
             else:
                 click_sound.play()
                 time.sleep(1)
-                print("Click,\nyou lucky bastard. Go again\n")
+                print("\nClick,\nyou lucky bastard. Go again\n")
                 break
         else:
             print("You must type 's' to shoot")
@@ -41,18 +41,18 @@ while True:
         pull_the_trigger = input("Type 's' to shoot: ").lower()
 
         if pull_the_trigger == 's':
-            print("You pull the trigger...")
+            print("\nYou pull the trigger...")
             time.sleep(1)
 
             if bullet == 1:
                 revolver_sound.play()
                 time.sleep(1)
-                print("You are dead. Game over!")
+                print("\nYou are dead. Game over!")
                 exit()
             else:
                 click_sound.play()
                 time.sleep(1)
-                print("Click,\nyou lucky bastard. Go again\n")
+                print("\nClick,\nyou lucky bastard. Go again\n")
                 break
         else:
             print("You must type 's' to shoot")
@@ -63,18 +63,18 @@ while True:
         pull_the_trigger = input("Type 's' to shoot: ").lower()
 
         if pull_the_trigger == 's':
-            print("You pull the trigger...")
+            print("\nYou pull the trigger...")
             time.sleep(1)
 
             if bullet == 1:
                 revolver_sound.play()
                 time.sleep(1)
-                print("You are dead. Game over!")
+                print("\nYou are dead. Game over!")
                 exit()
             else:
                 click_sound.play()
                 time.sleep(1)
-                print("Click,\nyou lucky bastard. Go again\n")
+                print("\nClick,\nyou lucky bastard. Go again\n")
                 break
         else:
             print("You must type 's' to shoot")
@@ -85,18 +85,18 @@ while True:
         pull_the_trigger = input("Type 's' to shoot: ").lower()
 
         if pull_the_trigger == 's':
-            print("You pull the trigger...")
+            print("\nYou pull the trigger...")
             time.sleep(1)
 
             if bullet == 1:
                 revolver_sound.play()
                 time.sleep(1)
-                print("You are dead. Game over!")
+                print("\nYou are dead. Game over!")
                 exit()
             else:
                 click_sound.play()
                 time.sleep(1)
-                print("Click,\nyou lucky bastard. Go again\n")
+                print("\nClick,\nyou lucky bastard. Go again\n")
                 break
         else:
             print("You must type 's' to shoot")
@@ -107,18 +107,18 @@ while True:
         pull_the_trigger = input("Type 's' to shoot: ").lower()
 
         if pull_the_trigger == 's':
-            print("You pull the trigger...")
+            print("\nYou pull the trigger...")
             time.sleep(1)
 
             if bullet == 1:
                 revolver_sound.play()
                 time.sleep(1)
-                print("You are dead. Game over!")
+                print("\nYou are dead. Game over!")
                 exit()
             else:
                 click_sound.play()
                 time.sleep(1)
-                print("Click,\nyou lucky bastard. Go again\n")
+                print("\nClick,\nyou lucky bastard. Go again\n")
                 break
         else:
             print("You must type 's' to shoot")
