@@ -37,7 +37,6 @@ while True:
     print("\nPlay Russian Roulette\n")
     bgm.play()
     bgm.fadeout(6000)
-
     shoot(bullet)
 
     while True:
@@ -70,4 +69,3 @@ while True:
 
         else:
             print("Please type y/n")
-
