@@ -38,25 +38,9 @@ while True:
     bgm.play()
     bgm.fadeout(6000)
     shoot(bullet)
-
-    while True:
-        bullet = random.choice([0, 0, 0, 0, 1])    
-        shoot(bullet)
-
-        while True:
-            bullet = random.choice([0, 0, 0, 1])  
-            shoot(bullet)
-
-            while True:
-                bullet = random.choice([0, 0, 1])  
-                shoot(bullet)
-
-                while True:
-                    bullet = random.choice([0, 1])  
-                    shoot(bullet)
-
-                    print("\nBullet left. You won!\n")
- 
+    
+    print("\nBullet left. You won!\n")
+                            
     while True:
         replay = input("Wanna play again? Type y/n:").lower()
         if replay == "y":
